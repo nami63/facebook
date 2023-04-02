@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+    font-family: Arial,sans-serif;
+}
+
+ 
+.right{
+    float: right;
+    width: 50%;
+    padding-top: 120px;
+}
+.left{
+    float: left;
+    width: 50%;
+    padding-top: 120px;
+}
+
+.container{
+    width: 1500px;
+}
+.logo-text{
+    width: 350px;
+    height: auto;
+    margin: auto;
+    position: left;
+    padding-left: 30%;
+    padding-top: 10%;
+    float: left;}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 200px;
+    padding-left: 35%;
+    font-size: 24px;
+}
+.formb{
+    width: 300px;
+    height: 320px;
+    background: #fff;
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 1px rgba(71,71,71,0.52);
+    padding: 25px;
+}
+.formb input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+.formb input :focus{
+    box-shadow: 0px 0px 1px rgb(22,111,229);
+}
+.formb button {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background: #166fe5;
+}
+.formb button:hover{
+    background: #1877f2;
+}
+.formb a{
+    color: #166fe5;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.formb hr{
+    border: 1px solid #dadde1;
+}
+.formb .cbut{
+    font-size: 16px;
+    color: #fff;
+    height: 13px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #36a420;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
